@@ -10,12 +10,26 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>SourceFM</title>
         <meta
           name="description"
           content="A music player for source based games, Play your music to your teammates in voice-chat in games like CS:GO"
           key="desc"
         />
+        <meta
+          name="keywords"
+          content="CS:GO, csgo, source games, source, music, music player, voice chat"
+          key="keywords"
+        />
+        <meta name="author" content="SourceFM" key="author" />
+        <meta property="og:title" content="SourceFM" key="og:title" />
+        <meta
+          property="og:description"
+          content="A music player for source based games, Play your music to your teammates in voice-chat in games like CS:GO"
+          key="og:description"
+        />
+        <meta name="robots" content="index, follow" key="robots" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header
