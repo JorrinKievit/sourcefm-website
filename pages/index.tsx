@@ -30,6 +30,10 @@ export default function Home() {
           key="og:description"
         />
         <meta name="robots" content="index, follow" key="robots" />
+        <meta
+          name="google-site-verification"
+          content="AwlJ7atvp0dKodDTyTUrFs7V3hR1f7alRo8W7tImGKk"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header
