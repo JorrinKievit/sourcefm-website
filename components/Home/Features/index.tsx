@@ -9,7 +9,7 @@ interface FeaturesProps {
 const Features: FC<FeaturesProps> = ({ nextPageRef }) => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center">
-      <div className="flex flex-col md:flex-row justify-center items-center space-x-8 flex-1">
+      <div className="flex flex-col md:flex-row justify-center items-center md:space-x-8 flex-1">
         <div className="flex flex-col justify-center items-center space-y-1 md:space-y-4 w-full md:w-1/3">
           <Image
             src="/undraw_preferences_re_49in.svg"

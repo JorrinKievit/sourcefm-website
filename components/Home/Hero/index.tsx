@@ -26,7 +26,7 @@ const Hero: FC<HeroProps> = ({ nextPageRef }) => {
           </div>
         </div>
         <a
-          className="flex justify-center items-center space-x-5 py-4 px-8 bg-blue-700 rounded text-white uppercase font-extrabold text-2xl"
+          className="flex justify-center items-center space-x-5 py-4 px-8 bg-blue-700 rounded text-white uppercase font-extrabold text-xl md:text-2xl"
           href="https://github.com/JorrinKievit/sourcefm/releases/latest"
           target="_blank"
           rel="noreferrer"
